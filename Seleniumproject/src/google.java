@@ -10,7 +10,7 @@ public class google {
 		driver.get("https://www.google.com/"); //setting the url
 		driver.manage().window().maximize(); //maximizing the window
 		Thread.sleep(600); //6 second wait
-		driver.quit();//close all the connections
-		//driver.close();//close will close the current connection
+		//driver.quit();//close all the connections
+		driver.close();//close will close the current connection
 	}
 }
